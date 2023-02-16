@@ -1,0 +1,80 @@
+ body {
+	background-color: #15202B;
+	margin:0;
+}
+
+header {
+	background-color: #67CEFF;
+	color: LightYellow;
+	font-size: xx-large;
+	text-align: center;
+}
+
+p{
+	color: white; 
+}
+
+section {
+	position: relative;
+	top: 10px;
+	left: 250px;
+	width: 80%;
+}
+
+section h1 {
+	color: #67CEFF;
+	font-size: x-large;
+} 
+
+/* texte très important */
+section span.tresImportant {
+	font-weight: bold;
+	color: Crimson;
+}
+
+/* Pour les formulaires (sujet 1) */
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 5px;
+    vertical-align: top;
+    text-align: right;
+	font-size: normal;
+}
+
+input {
+    vertical-align: top;
+}
+
+input[type=submit] {
+    margin-left: 105px;
+    text-align: right;
+}
+
+/* bar menu */
+
+.bar {
+	text-decoration: none;
+	width: 100;
+	background-color: #67CEFF;
+	overflow: auto;
+  }
+  
+  .bar a {
+	float: left;
+	width: 20%;
+	text-align: center;
+	padding: 12px 0;
+	transition: all 0.3s ease;
+	color: white;
+	font-size: 36px;
+  }
+  
+  .bar a:hover {
+	background-color: #67CEFF;
+  }
+  
+  .active {
+	background-color: #04AA6D;
+  }
